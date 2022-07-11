@@ -261,7 +261,7 @@ fn grid_sol_to_grid(grid_sol: &[Vec<i32>; 9*9], grid: &mut [i32; 9*9]) {
 
 fn main() {
 
-	for ind_grid in 2..50 {
+	for ind_grid in 0..50 {
 	
 		let mut grid: [i32; 9*9] = [0; 9*9]; 
 	
